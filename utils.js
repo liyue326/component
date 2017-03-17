@@ -12,7 +12,7 @@ var utils=(function(){
             return ary;
         }
     }
-还得用新数组来接收工具后的方法
+
     function jsonParse(jsonStr){
         return 'JSON' in window?JSON.parse(jsonStr):eval('('+jsonStr+')');
     }
